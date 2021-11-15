@@ -1,0 +1,130 @@
+/* #region Normalise */
+body, h1, h2, h3, ul, p {
+  margin: 0;
+  background-color: gray;
+}
+/* #endregion */
+
+/* #region Product-Card */
+
+.product-card {
+  font-family: Roboto;
+  display: flex;
+  background-color:white;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  width: 200px;
+  height: 406px;
+}
+
+/* #endregion */ 
+
+/* #region Card-Img */
+
+.card-img {
+  display: inline-flex;
+  width: 160px;
+  height: 134px;
+}
+
+/* #endregion */
+
+/* #region Card-Title */
+
+.card-title {
+  width: 166px;
+  height: 36px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+/* #endregion */
+
+/* #region Card-Id */
+
+.card-id {
+  font-size: 10px;
+  width: 92px;
+  height: 14px;
+  color: #616070;
+}
+
+/* #endregion */
+
+/* #region Rate-Box */
+
+.rate-box {
+  display: flex;
+  justify-content: space-between;
+  width: 166px;
+}
+
+.rate-box__stars {
+  display: flex;
+  gap: 4px;
+}
+
+.rate-box__star {
+  width: 16px;
+  height: 16px;
+}
+
+.rate-box__review {
+  display: inline-flex;
+  align-items: flex-end;
+  font-size: 10px;
+}
+
+/* #endregion */
+
+/* #region Card-Price */
+
+.card-price {
+  display: flex;
+  justify-content: space-between;
+  width: 166px;
+}
+
+.card-price-text {
+  display: inline-flex;
+  align-items: center;
+  font-size: 12px;
+  width: 32px;
+  color: #616070
+}
+
+.card-price-sum {
+  font-size: 16px;
+  font-weight: bold;
+  width: 79px;
+}
+
+/* #endregion */
+
+/* #region Buy-Button */
+
+.buy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  background-color: #00ACDC; 
+  border-radius: 5px
+}
+
+.buy-link {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+/* #endregion */
